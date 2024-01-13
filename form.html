@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="form.css">
+    <title>Lab4-Form</title>
+</head>
+<body>
+        <div class="form">
+        <h2>Enter Details</h2>
+        <form action="#" method="POST"> 
+            Full Name: <input type="text" name="fullname"><br><br>
+            Address: <input type="text" name="address"><br><br>
+            Email: <input type="email" name="email"><br><br>
+            Gender: 
+            <input type="radio" name="gender" value="1" checked> Male
+            <input type="radio" name="gender" value="0"> Female <br><br>
+            Country: 
+            <select name="country" id="">
+                <option value="Nepal">Nepal</option>
+                <option value="India">India</option>
+                <option value="China">China</option>
+            </select><br><br>
+            Hobbies: 
+            <input type="checkbox" name="hobbies[]" value="ftbl"> Football
+            <input type="checkbox" name="hobbies[]" value="crct"> Cricket
+            <input type="checkbox" name="hobbies[]" value="tt"> Table Tennis <br><br>
+            Description: <br>
+            <textarea name="descrition" id="" cols="50" rows="3"></textarea><br><br>
+            <input type="submit" name="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
